@@ -1,0 +1,8 @@
+# Nikto Vulnerability Scan Results
+Target: testphp.Vulnweb.com
+Server: Apache/2.4.41 (Ubuntu)
+Vulnerabilities Found:
+1. Anti-clickjacking X-Frame-Options header is missing
+2. X-Content-Type-Options header is not set.
+3. Vulnerable bakup file discovered at /config.php.
+4. Exposed admin panel discovered at /admin/login.php.
